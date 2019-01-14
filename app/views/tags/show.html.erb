@@ -17,6 +17,7 @@
           destination's image goes here
           <h2><%= d.name %></h2>
           <p><%= d.description %></p>
+          <%= link_to "See more", destination_path(d) %>
         </div>
       <% end %>
 
