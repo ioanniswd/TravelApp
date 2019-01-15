@@ -12,6 +12,7 @@
         <img src=<%= @destination.image %> alt="">
         <h2><%= @destination.name %></h2>
         <p><%= @destination.description %></p>
+        <%= link_to "Update", edit_destination_path(@destination) %>
       </div>
     </div>
   </div>
